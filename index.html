@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css" class="stylesheet">
+
+  <!--boxicon-->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <!--favicon CHE NON VIENE VISUALIZZATA, non so il perché. Ho provato vari metodi e anche a cancellare la chache-->
+  <link rel="icona" href="favicon.ico">
+
+  <title>Valentina Fiscarelli's Portfolio</title>
+</head>
+    <body>
+    <!-- header -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                  <a href="#home" class="nav__logo">Valentina <span class="nav__logo-color">Fiscarelli</span></a>
+                </div>
+
+              <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                  <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                  <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu' style='color:#ffffff'  ></i>
+              </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+    <!--Home-->
+          <section class="home bd-grid" id="home">
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm <br><span class="home__title-color">Valentina Fiscarelli</span> </h1>
+              <h2 class="home__subtitle">Your new UX/UI Designer!</h2>
+
+              <a href="#contact" class="button">Contact Me!</a>
+            </div>
+
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/valentina-fiscarelli/" rel="noopener" target="blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+              <a href="https://www.instagram.com/fridawer/" rel="noopener" target="blank" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+              <a href="https://github.com/FridaWer" rel="noopener" target="blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div>
+              <img loading="lazy" src="img/profile.jpg" alt="" class="home__img">
+            </div>
+          </section>
+    <!--About-->
+          <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img loading="lazy" src="img/about_img.jpg" alt="">
+                </div>
+
+                <div>
+                    <h3 class="about__subtitle">I'm Valentina</h3>
+                    <p class="about__text">Creative, artisan with a backgrond in the e-commerce field and online advertising (Facebook and Instagram).
+                      <br> <br> After my experience in the customer support in Lisbon, I became a UX/UI Designer.
+                      <br> <br> I would love design the content of your site, as user-friendly as possible (swear free :D),
+                      with an inclusive and consistent graphical interface.</p>
+
+                      <div class="about__buttons">
+                        <a download="" href="pdf/Fiscarelli-Cv.pdf" rel="noopener" target="blank" class="button button--flex">
+                          Download CV <i class='bx bx-download button__icon'></i>
+                        </a>
+                      </div>
+                </div>
+
+            </div>
+          </section>
+
+    <!--Skills-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <p class="skills__text">In the last 2 years I've studied as UX/UI Designer and chewed some HTML and CSS.</p>
+
+            <div class="skills__container bd-grid">
+              <div>
+                  <h3 class="skills__subtitle">UX/UI Design</h3>
+                  <div class="skills__data">
+                    <div class="skills__names">
+                      <i class='bx bxs-paint skills__icon'></i>
+                        <span class="skills__name">UX Design</span>
+                    </div>
+
+                          <div>
+                              <span class="skills__percentage">80%</span>
+                          </div>
+
+                    <div class="skills__bar skills__uxdesign"></div>
+                  </div>
+
+                  <div class="skills__data">
+                    <div class="skills__names">
+                       <i class='bx bx-columns skills__icon'></i>
+                        <span class="skills__name">UI Design</span>
+                    </div>
+
+                          <div>
+                              <span class="skills__percentage">80%</span>
+                          </div>
+
+                    <div class="skills__bar skills__uidesign"></div>
+                  </div>
+
+                  <div class="skills__data">
+                    <div class="skills__names">
+                    <i class='bx bxl-figma skills__icon' ></i>
+                        <span class="skills__name">Figma</span>
+                    </div>
+
+                          <div>
+                              <span class="skills__percentage">90%</span>
+                          </div>
+
+                    <div class="skills__bar skills__figma"></div>
+                  </div>
+
+                  <h3 class="skills__subtitle">Frontend</h3>
+                  <div class="skills__data">
+                    <div class="skills__names">
+                    <i class='bx bxl-css3 skills__icon' ></i>
+                        <span class="skills__name">HTML5</span>
+                    </div>
+
+                          <div>
+                              <span class="skills__percentage">40%</span>
+                          </div>
+
+                    <div class="skills__bar skills__html"></div>
+                  </div>
+
+                  <div class="skills__data">
+                    <div class="skills__names">
+                      <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">CSS3</span>
+                    </div>
+
+                          <div>
+                              <span class="skills__percentage">40%</span>
+                          </div>
+
+                    <div class="skills__bar skills__css"></div>
+                  </div>
+
+                  <div class="skills__data">
+                    <div class="skills__names">
+                      <i class='bx bxl-javascript skills__icon' ></i>
+                        <span class="skills__name">JavaScrip</span>
+                    </div>
+
+                          <div>
+                              <span class="skills__percentage">10%</span>
+                          </div>
+
+                    <div class="skills__bar skills__js"></div>
+                  </div>
+              </div>
+
+                <div>
+                  <img loading="lazy" src="img/skills1.jpg" alt="" class="skills__img">
+                </div>
+
+            </div>
+          </section>
+
+    <!-- work -->
+
+          <section class="work section" id="work">
+              <h2 class="section-title">Projects</h2>
+                  <p class="work__text">In the last 2 years I've worked on these studio projects. <br> Some of these are in English too.</p>
+
+              <div class="work__container bd-grid">
+
+                <a href="pdf/PROGETTO_DI_COPYWRITING.pdf" rel="noopener" target="blank" class="card">
+                    <img loading="lazy" src="img/copywriting.jpg" class="card__img" alt="progetto_copywriting_Valentina_Fiscarelli">
+                    <div class="con-text">
+                        <h3 class="card__title">
+                          COPYWRITING
+                        </h3>
+                          <p>Promotional post of the Mind the Gap Festival (an imaginary festival), promoted by Voci Magazine.
+                          <button>
+                            Read More
+                          </button>
+                        </p>
+                      </div>
+                </a>
+
+                <a href="pdf/Progetto_Grafica.pdf" rel="noopener" target="blank" class="card">
+                    <img loading="lazy" src="img/progetto_grafica.png" class="card__img" alt="">
+                    <div class="con-text">
+                        <h3 class="card__title">
+                          GRAPHIC
+                        </h3>
+                          <p>Creation of the Brand Identity of an imaginary travel agency: this is how I've designed La Scia Viaggi.
+                          <button>
+                            Read More
+                          </button>
+                        </p>
+                      </div>
+                </a>
+
+                <a href="pdf/IDOCTORS.pdf" rel="noopener" target="blank" class="card">
+                    <img loading="lazy" src="img/idoctors1.jpg" alt="">
+                    <div class="con-text">
+                        <h3 class="card__title">
+                          UX/UI DESIGN
+                        </h3>
+                          <p>User Experience and User Interface restyle of the site: this is the new design of iDoctors.
+                          <button>
+                            Read More
+                          </button>
+                        </p>
+                      </div>
+                </a>
+
+                <a href="pdf/Progetto_Finale_UX_Design.pdf" rel="noopener" target="blank" class="card">
+                    <img loading="lazy" src="img/ecodream.jpg" alt="">
+                    <div class="con-text">
+                          <h3 class="card__title">
+                            UX DESIGN
+                          </h3>
+                            <p>ENG PROJECT -Desktop and Mobile User Experience restyle: this is how I've designed Ecodream site.
+                            <button>
+                              Read More
+                            </button>
+                          </p>
+                        </div>
+                </a>
+
+                <a href="pdf/portfolio.pdf" rel="noopener" target="blank" class="card">
+                    <img loading="lazy" src="img/portfolio1.jpg" alt="">
+                    <div class="con-text">
+                          <h3 class="card__title">
+                            HTML AND CSS
+                          </h3>
+                            <p>It all starts here!<br> This is how I've designed and developed my portfolio project.
+                            <button>
+                              Read More
+                            </button>
+                          </p>
+                        </div>
+                </a>
+
+                <a href="pdf/UI-DESIGN.pdf" rel="noopener" target="blank" class="card">
+                    <img loading="lazy" src="img/acumen.png" alt="">
+                    <div class="con-text">
+                          <h3 class="card__title">
+                            UI DESIGN
+                          </h3>
+                            <p>ENG PROJECT -Desktop and Mobile User Interface restyle: this is how I've designed Acumen Academy site.
+                            <button>
+                              Read More
+                            </button>
+                          </p>
+                        </div>
+                </a>
+
+                <a href="#contact" class="card">
+                    <img loading="lazy" src="img/il-prossimo.jpg" alt="">
+                    <div class="con-text__next">
+                          <h3 class="card__title">
+                            What's next?
+                          </h3>
+                            <p>The next project could be yours! If you have a project to propose to me...
+                          <br><b>CONTACT ME!</b></p>
+                        </div>
+                </a>
+
+              </div>
+          </section>
+
+    <!-- contact -->
+          <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+                  <p class="contact__text">If you wish, you can contact me by the social contacts below <br> or by e-mail <b> fiscarelli5@gmail.com </b></p>
+            <div class="contact__container bd-grid">
+
+              <div class="social__contact">
+                <a href="https://www.linkedin.com/in/valentina-fiscarelli/" rel="noopener" target="blank" class="social__contact-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/fridawer/" rel="noopener" target="blank" class="social__contact-icon"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/FridaWer" rel="noopener" target="blank" class="social__contact-icon"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </section>
+        </main>
+
+    <!-- footer -->
+        <footer class="footer">
+          <p class="footer__title">Valentina <span class="home__title-color">Fiscarelli</span></p>
+
+            <div class="footer__social">
+              <a href="https://www.facebook.com/frida.wer/" rel="noopener" target="blank" class="footer__icon"><i class='bx bxl-facebook-square'></i></a>
+              <a href="https://www.instagram.com/fridawer/" rel="noopener" target="blank" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+              <a href="https://www.linkedin.com/in/valentina-fiscarelli/" rel="noopener" target="blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+              <a href="https://github.com/FridaWer"  rel="noopener" target="blank" class="footer__icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <p class="footer__copy">&#169; 2022 copyright all right reserved. <br>Last update 22.10.2022</p>
+        </footer>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Main Java-->
+    <script defer src="main.js"></script>
+    </body>
+</html>
